@@ -1,0 +1,26 @@
+<p>
+  add works!
+</p>
+<form [formGroup]="myForm"> 
+<table>
+  <tr>
+    <td>MOBILE ID</td>
+    <td><input type="text" formControlName="id"> </td>
+  </tr>
+  <tr>
+    <td>MOBILE Name</td>
+    <td><input type="text" formControlName="name"> </td>
+  </tr>
+  <tr>
+    <td>MOBILE PRICE</td>
+    <td><input type="text" formControlName="price"> </td>
+  </tr>
+  <tr>
+    <td>MOBILE BRAND</td>
+    <td><input type="text" formControlName="brand"> </td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="button" value="Add Mobile" (click)="add()"></td>
+  </tr>
+</table>
+</form>

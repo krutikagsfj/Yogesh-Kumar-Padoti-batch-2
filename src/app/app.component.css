@@ -1,0 +1,5 @@
+#navcontainer ul li { 
+    display: inline;
+    margin-left: 20px;
+ }
+#navcontainer ul li a { text-decoration: none; }
